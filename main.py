@@ -32,7 +32,6 @@ class Auto:
         self.marca = ""
         self.motor = Motor
         self.registro = 0
-        self.cantidadCreados = cantidadCreados
 
     def cantiadAsientos (self):
         return(len(Asiento))

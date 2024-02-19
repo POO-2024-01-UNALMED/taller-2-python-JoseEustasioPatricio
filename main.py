@@ -49,5 +49,4 @@ class Auto:
             registroAsiento = self.asiento[elemento].registro
             if registroMotor != registroAsientos or registroAuto != registroAsiento or registroAuto != registroMotor: 
                 return"Las piezas no son originales"
-            else: 
-                return "Auto original"
+        return "Auto original"

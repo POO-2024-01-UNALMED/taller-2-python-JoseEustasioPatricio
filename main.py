@@ -10,7 +10,7 @@ class Asiento:
             self.color = color
 
 class Motor:
-    def __init__(self, numeroCiindros, tipo, registro):
+    def __init__(self, numeroCilindros, tipo, registro):
         self.numeroCiindros = numeroCilindros
         self.tipo = tipo
         self.registro = registro

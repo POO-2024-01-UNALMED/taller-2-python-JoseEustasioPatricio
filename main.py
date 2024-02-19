@@ -42,7 +42,7 @@ class Auto:
         return cantidad
         
 
-    def verificarIntegridad ():
+    def verificarIntegridad (self):
         if (self.registro == self.motor.registro):
             for asiento in self.asientos:
                 if asiento.registro != self.registro:

@@ -46,7 +46,8 @@ class Auto:
         registroMotor = self.motor.registro
         registroAuto = self.registro
         for elemento in range(len(self.asientos)):
-            registroAsiento = self.asiento[elemento].registro
-            if registroMotor != registroAsientos or registroAuto != registroAsiento or registroAuto != registroMotor: 
-                return"Las piezas no son originales"
+            if isinstance(self.asientos[elemento], Asiento) == True:
+                registroAsiento = self.asiento[elemento].registro
+                    if registroMotor != registroAsientos or registroAuto != registroAsiento or registroAuto != registroMotor: 
+                        return"Las piezas no son originales"
         return "Auto original"

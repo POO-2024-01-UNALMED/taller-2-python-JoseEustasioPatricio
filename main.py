@@ -21,6 +21,8 @@ class Motor:
     def asignarTipo (self, tipo):
         if tipo == ("electrico" or "gasolina"):
             self.tipo = tipo
+        else:
+            self.tipo = self.tipo
         
 
 class Auto:
